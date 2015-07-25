@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :books
   devise_for :users
+  get 'dashboard' => 'pages#dashboard'
   root 'pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
