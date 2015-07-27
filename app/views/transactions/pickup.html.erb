@@ -1,5 +1,4 @@
 <div class="row text-center">
 	<h2>Congratulations on your order <%= @sale.guid %></h2>
-	<p>Here is your download link:</p>
-	<%= link_to 'Download', @book.resource.url %>
+	<p><%= link_to 'Click here to download', @book.resource.url %></p>
 </div>
