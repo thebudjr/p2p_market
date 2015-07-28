@@ -47,6 +47,7 @@ end
 group :production do
 	gem 'rails_12factor'
 	gem 'pg'
+  ruby '2.2.2'
 end
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
